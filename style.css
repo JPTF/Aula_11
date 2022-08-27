@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.header {
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  list-style: none;
+  height: 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #39b24a;
+  font-size: 24px;
+}
+
+.logo h1 span:first-child {
+  color: white;
+  font-size: 24px;
+}
+.logo h1 span:last-child {
+  color: #fc200c;
+  font-size: 24px;
+}
+
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+/*Este me deja separadas cada una de los itemes de la lista*/
+.header nav ul li + li {
+  margin-left: 13px;
+}
+
+.header nav {
+  color: hsl(0, 0%, 95%);
+  display: inline-block;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 986px;
+  margin: 35px auto;
+}
+
+.Delivery-container {
+  height: 350px;
+  width: 490px;
+  text-align: center;
+  color: red;
+  background-image: url("img/delivery.jpg");
+}
+
+.Delivery-container span {
+  color: white;
+}
+
+.container-cardapio {
+  width: 490px;
+  text-align: center;
+  margin: 0 auto;
+  height: 350px;
+  background: #ffffff;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.container-cardapio h2 {
+  margin: 26px 0px 80px 0px;
+  color: red;
+}
+
+.container-cardapio h3 {
+  margin: 0 0 20px 20px;
+}
+.container-cardapio .content {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.list {
+  text-align: left;
+  font-weight: bold;
+}
+
+.list ol li {
+  margin: 10px 10px 10px 20px;
+}
+
+.footer {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-between;
+  background: #222222;
+  height: 150px;
+}
+
+.footer nav.lista-footer ul {
+  list-style-type: none;
+  color: #f3f3f3;
+}
+.footer nav.lista-footer ul li a {
+  margin-bottom: 1px;
+  padding: 5px;
+  display: block;
+}
+
+.logo.footer-logo {
+  font-size: 20px;
+}
